@@ -1,0 +1,114 @@
+body { 
+  	background: #595959;
+  	font: 400 14px 'Calibri','Arial';
+  	
+ 	position: relative;	
+}
+/*div {
+    background-color: lightgrey;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}*/
+div.header {
+	border:1px solid black;
+}
+
+h2 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 50px;
+	position: absolute;
+    max-width: 100%;
+    left:20%;
+    max-height: 100%;
+    color: black;
+  background-color: #595959;
+  letter-spacing: 0.15em;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777;
+}
+img {
+	border-radius: 20px;
+	position: absolute;
+	left: -9%;
+	top: 14px ;
+
+}
+div.section {
+    padding: 25px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 100%;
+    width: 75%;
+    margin: 11%;
+
+    background:  #808080;
+    position: absolute;
+    top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+div p {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 20px;
+    max-height: 100%;
+    color: black;
+    margin: 25px;
+  letter-spacing: 0.15em;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777;
+
+}
+.container {
+  position: absolute;
+  text-align:center;
+  /* perfect centering */
+  right:33%;
+  top: 490px;
+  width:33%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  background:#93c7d6;
+  border-radius:3px;
+  box-shadow: 5px 19px 38px rgba(0, 0, 0, 0.30), 5px 15px 12px rgba(0, 0, 0, 0.22);
+}
+li a {
+  padding:12px 0;
+  display: block;
+  background:  #d9d9d9;
+  border: 1px solid #595959;
+  color: #000033;
+  height: 50px;
+  font-size: 20px;
+  padding-top: 30px;
+}
+li a:hover {
+  background:  #b3e0ff;
+  border:1px solid blue;
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2), 0 30px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  text-decoration: none;
+}
+footer {
+    padding: 25px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 96%;
+    background:  black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+
+    top: 1030px;
+    color: #595959;
+    text-align: center;
+
+}
+footer p a {
+  color: skyblue;
+}

@@ -1,0 +1,61 @@
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 6px 8px 20px 6px rgba(0, 0, 0, 0.19);
+}
+table tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #80dfff;
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+    background-color: #80dfff;
+}
+table thead tr {
+  height: 60px;
+
+  font-size: 16px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+
+
+blockquote {
+  color: white;
+  text-align: center;
+}
+input[type="text"]{
+	 
+	 outline: none;
+	 border: 0;
+	 border-bottom: 1px solid #435160;
+}
+input[type="text"]:focus {
+    border: 1px solid #555;
+    background:  #ecffb3;
+}
+

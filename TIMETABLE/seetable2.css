@@ -1,0 +1,22 @@
+#in {
+	background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid blue;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+
+}
+#in:focus{
+  border:1px solid blue;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+thead tr th {
+	font-weight: bold;
+	font-size: 20px;
+}
+span#tabledate {
+	margin-left: 25%;
+	font-size: 25px;
+	border: none;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+}
